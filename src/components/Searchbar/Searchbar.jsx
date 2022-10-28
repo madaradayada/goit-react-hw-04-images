@@ -16,7 +16,6 @@ export function SearchBar({ onSubmit }) {
     setQuery(evt.currentTarget.value.toLowerCase());
   };
 
-  //отправка формы
   const handleSubmit = evt => {
     evt.preventDefault();
     if (query.trim() === '') {

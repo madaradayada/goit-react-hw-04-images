@@ -62,7 +62,7 @@ export function App() {
     setPage(1);
     setError(null);
   };
-  //загрузить больше
+
   const onLoadMore = () => {
     setPage(prevPage => prevPage + 1);
   };
